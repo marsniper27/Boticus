@@ -30,7 +30,7 @@ namespace Boticus
             commands.CreateCommand("hello")
                 .Do(async (e) =>
                 {
-                    await e.Channel.SendMessage("which system do you play?");
+                    await e.Channel.SendMessage("Which system do you play?");
                 });
 
             discord.ExecuteAndWait(async () =>
