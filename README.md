@@ -1,0 +1,2 @@
+# Boticus
+Another Discord bot
