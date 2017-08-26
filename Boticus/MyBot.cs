@@ -35,7 +35,7 @@ namespace Boticus
 
             discord.ExecuteAndWait(async () =>
             {
-                await discord.Connect("MzQ5MzE4NDYyNDQ0Nzk3OTYy.DHzwxQ._aWUv9lAzAxw12CnFj2_E0I_Hus", TokenType.Bot);
+                await discord.Connect("TOKEN", TokenType.Bot);
             });
         }
         private void Log(Object sender, LogMessageEventArgs e)
